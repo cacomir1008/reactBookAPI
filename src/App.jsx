@@ -5,7 +5,8 @@ import Booklist from './components/Booklist'; //
 import {BrowserRouter, Route, Link}from 'react-router-dom';
 // ライブラリ追加(axios)httpリクエストを送る
 import axios from 'axios';
-<link rel="stylesheet" href="index.css" />
+// css読み込み効かなかった
+{/* <link rel="stylesheet" href="index.css" /> */}
 
 const App = () => {
   const languages = ['React','Vue','Angular','JavaScript','python','css'];

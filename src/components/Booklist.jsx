@@ -3,7 +3,8 @@
 // React = Component内でデータ更新＝＞再レンダリング＝APIからデータ取得＞無限ループ
 // レンダリングを制御、特定の値が更新された時のみ処理を実行させる（今回はpropsが更新）
 import React, { useState, useEffect}from 'react';
-<link rel="stylesheet" href="./index.css" />
+// css読み込み効かなかった
+{/* <link rel="stylesheet" href="./index.css" /> */}
 
 // props 親から子にデータを渡す時に使う。親からのデータは全部propsに自動的に入ってくる。
 // データ取り出す：props.名前
